@@ -901,11 +901,11 @@ var AwesomeSezzle;
           {
             key: "renderAwesomeSezzle",
             value: function () {
-              if (
-                !this.isProductEligible(this.amount) &&
-                0 === this.ineligibleWidgetTemplate.length
-              )
-                return !1;
+              // if (
+              //   !this.isProductEligible(this.amount) &&
+              //   0 === this.ineligibleWidgetTemplate.length
+              // )
+              //   return !1;
               var t = "";
               (t = this.isProductEligible(this.amount)
                 ? this.isProductEligibleLT(this.amount)
